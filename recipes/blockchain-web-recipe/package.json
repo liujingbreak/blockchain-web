@@ -1,0 +1,8 @@
+{
+  "name": "@dr/blockchain-web-recipe",
+  "version": "0.1.0",
+  "description": "Component group: blockchain-web-recipe",
+  "dependencies": {
+    "@dr/tommysun-web": "1.0.0"
+  }
+}

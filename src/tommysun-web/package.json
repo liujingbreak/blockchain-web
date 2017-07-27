@@ -1,0 +1,17 @@
+{
+  "name": "@dr/tommysun-web",
+  "version": "1.0.0",
+  "description": "Totally no idea about blockchain shit",
+  "browser": "browser.js",
+  "dr": {
+    "chunk": "tommysun",
+    "entryPage": "*.html",
+    "noLint": true
+  },
+  "dependencies": {
+    "jquery": "^1.12.0",
+    "web3": "^0.20.1"
+  },
+  "author": "Liu Jing",
+  "license": "MIT"
+}
