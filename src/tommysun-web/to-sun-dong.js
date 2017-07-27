@@ -1,8 +1,8 @@
 var amoutDom = $('#amount');
 var progressDom = $('#progress');
-var totalAmout = 5000000;
+var totalAmount = 5000000;
 var interval = 10 * 1000; // 10 sec
-var percentBase = totalAmout / 100;
+var percentBase = totalAmount / 100;
 queryAmout();
 
 function queryAmout() {
@@ -25,7 +25,7 @@ function updateUI(res) {
 	if (!res.result)
 		return;
 	var amount = parseInt(res.result, 10);
-	var a = totalAmout - amount;
+	var a = totalAmount - amount;
 	var b = Math.floor(a / percentBase * 10) / 10;
 	amoutDom.html(a);
 	progressDom.html(b);
