@@ -6,6 +6,7 @@
   "dr": {
     "chunk": "tommysun",
     "entryPage": "*.html",
+    "jsLoader": "babel",
     "noLint": true
   },
   "dependencies": {
